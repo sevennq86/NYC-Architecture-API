@@ -43,7 +43,15 @@
     "Height": "1,270 ft",
     "Floor-Area": "2,600,000  sq ft",
     "Architect": "Kohn Pedersen Fox"
-  }
+  },
   
+  {
+    "Name": "",
+    "Construction-Started": "",
+    "Top-Floor": 0,
+    "Height": "",
+    "Floor-Area": "",
+    "Architect": ""
+  }
   
   ]
