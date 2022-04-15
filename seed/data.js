@@ -6,7 +6,7 @@ import top10 from "./top10.json" assert { type: "json" };
 
 const insertData = async () => {
   // reset database
-  db.dropDatabase();
+  // db.dropDatabase();
 
   // insert iconic and top10 into database
   await Iconic.insertMany(iconic);
