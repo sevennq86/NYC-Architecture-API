@@ -1,7 +1,7 @@
 import db from "../db/connection.js";
 import Iconic from "../models/iconic.js";
-import iconic from "./iconic.json" assert { type: "json" };
 import Top10 from "../models/top10.js";
+import iconic from "./iconic.json" assert { type: "json" };
 import top10 from "./top10.json" assert { type: "json" };
 
 const insertData = async () => {
