@@ -2,110 +2,110 @@
   {
     "name": "One World Trade Center",
     "opened": 2014,
-    "top-floor": 104,
+    "topFloor": 104,
     "height": "1,776 ft",
-    "floor-area": "3,501,274 sq ft",
+    "floorArea": "3,501,274 sq ft",
     "architect": "David Childs",
-    "architectural style":  "Contemporary Modern",
+    "architecturalStyle":  "Contemporary Modern",
     "rank": 1
   },
   
   {
     "name": "Central Park Tower",
     "opened": 2021,
-    "top-floor": 98,
+    "topFloor": 98,
     "height": "1,550 ft",
-    "floor-area": "1,285,308 sq ft",
+    "floorArea": "1,285,308 sq ft",
     "architect": "Adrian Smith & Gordon Gill Architecture",
-    "architectural style":  "Modern",
+    "architecturalStyle":  "Modern",
     "rank": 2
   },
   
   {
     "name": "Steinway Tower",
     "opened": 2021,
-    "top-floor": 84,
+    "topFloor": 84,
     "height": "1,428 feet",
-    "floor-area": "303,225 sq ft",
+    "floorArea": "303,225 sq ft",
     "architect": "Shop Architects",
-    "architectural style":  "Neo-classic",
+    "architecturalStyle":  "Neo-classic",
     "rank": 3
   },
 
   {
     "name": "One Vanderbilt",
     "opened": 2020,
-    "top-floor": 93,
+    "topFloor": 93,
     "height": "1,401 feet",
-    "floor-area": "1,750,212 sq ft",
+    "floorArea": "1,750,212 sq ft",
     "architect": "Kohn Pedersen Fox",
-    "architectural style":  "Futurist",
+    "architecturalStyle":  "Futurist",
     "rank": 4
   },
   
   {
     "name": "432 Park Avenue",
     "opened": 2015,
-    "top-floor": 85,
+    "topFloor": 85,
     "height": "1,396 ft",
-    "floor-area": "412,637 sq ft",
+    "floorArea": "412,637 sq ft",
     "architect": "Rafael Vinoly and SLCE Architects, LLP",
-    "architectural style":  "Contemporary",
+    "architecturalStyle":  "Contemporary",
     "rank": 5
   },
   
   {
     "name": "30 Hudson Yards",
     "opened": 2019,
-    "top-floor": 103,
+    "topFloor": 103,
     "height": "1,270 ft",
-    "floor-area": "2,600,000  sq ft",
+    "floorArea": "2,600,000  sq ft",
     "architect": "Kohn Pedersen Fox",
-    "architectural style":  "Neo-futurism",
+    "architecturalStyle":  "Neo-futurism",
     "rank": 6
   },
   
   {
     "name": "Empire State Building",
     "opened": 1931,
-    "top-floor": 102,
+    "topFloor": 102,
     "height": "1,250 ft",
-    "floor-area": "2,248,355  sq ft",
+    "floorArea": "2,248,355  sq ft",
     "architect": "Shreve, Lamb and Harmon",
-    "architectural style":  "Art Deco",
+    "architecturalStyle":  "Art Deco",
     "rank": 7
   },
 
   {
     "name": "Bank of America Tower",
     "opened": 2009,
-    "top-floor": 55,
+    "topFloor": 55,
     "height": "1,200 ft",
-    "floor-area": "2,100,000  sq ft",
+    "floorArea": "2,100,000  sq ft",
     "architect": "Cookfox Adamson Associates",
-    "architectural style":  "Late Modern",
+    "architecturalStyle":  "Late Modern",
     "rank": 8
   },
 
   {
     "name": "3 World Trade Center",
     "opened": 2018,
-    "top-floor": 80,
+    "topFloor": 80,
     "height": "1,079 ft",
-    "floor-area": "2,000,000  sq ft",
+    "floorArea": "2,000,000  sq ft",
     "architect": "Rogers Stirk Harbour + Partners",
-    "architectural style":  "Modern",
+    "architecturalStyle":  "Modern",
     "rank": 9
   },
 
   {
     "name": "The Brooklyn Tower",
     "opened": 2022,
-    "top-floor": 93,
+    "topFloor": 93,
     "height": "1,073 ft",
-    "floor-area": "555,734  sq ft",
+    "floorArea": "555,734  sq ft",
     "architect": "Shop Architects",
-    "architectural style":  "New Art Deco",
+    "architecturalStyle":  "New Art Deco",
     "rank": 10
   }
 ]
