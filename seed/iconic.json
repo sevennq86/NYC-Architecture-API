@@ -3,69 +3,79 @@
    "title": "520 West 28th Street by Zaha Hadid", 
    "architecturalStyle": "Modern",
    "year": 2017,
-   "about": "Powerful urban design dynamic between the streets of New York and the High Line, a layered civic realm that has developed over generations and in many iterations. 520 West 28th conveys this contextual relationship, applying new ideas and concepts to create the latest evolution of the sites rich history.  -Zaha Hadid Architects "  
+   "about": "Powerful urban design dynamic between the streets of New York and the High Line, a layered civic realm that has developed over generations and in many iterations. 520 West 28th conveys this contextual relationship, applying new ideas and concepts to create the latest evolution of the sites rich history.  -Zaha Hadid Architects ",  
+   "image": "https://www.zaha-hadid.com/wp-content/uploads/2019/12/05_zha_520w28thstreet_huftoncrow68.jpg"
   },
 
   {
     "title": "Solomon R. Guggenheim Museum",
     "architecturalStyle": "Modern",
     "year": 1959,
-    "about": "From its very beginnings the Solomon R. Guggenheim Museum has been a hub for new art and new ideas. The museum was designed by renowned architect Frank Lloyd Wright to house an innovative collection of works in a unique environment. Today, the museum continues to be a landmark destination that attracts visitors from around the world." 
+    "about": "From its very beginnings the Solomon R. Guggenheim Museum has been a hub for new art and new ideas. The museum was designed by renowned architect Frank Lloyd Wright to house an innovative collection of works in a unique environment. Today, the museum continues to be a landmark destination that attracts visitors from around the world.",
+    "image": "https://www.inexhibit.com/wp-content/webp-express/webp-images/uploads/2014/05/Solomon-R-Guggenheim-New-York-photo-David-Heald-870x580.jpg.webp" 
   },
 
   {
     "title": "Seagram Building",
     "architecturalStyle": "Modern",
     "year": 1958,
-    "about": "The Seagram Building is a skyscraper at 375 Park Avenue, between 52nd and 53rd Streets, in the Midtown Manhattan neighborhood of New York City. Designed by Ludwig Mies van der Rohe, Philip Johnson, Ely Jacques Kahn, and Robert Allan Jacobs, the building measures 515 feet (157 m) tall with 38 stories and a public plaza. The International Style building, completed in 1958, initially served as the headquarters of the Seagram Company, a Canadian distiller.  -wiki" 
+    "about": "The Seagram Building is a skyscraper at 375 Park Avenue, between 52nd and 53rd Streets, in the Midtown Manhattan neighborhood of New York City. Designed by Ludwig Mies van der Rohe, Philip Johnson, Ely Jacques Kahn, and Robert Allan Jacobs, the building measures 515 feet (157 m) tall with 38 stories and a public plaza. The International Style building, completed in 1958, initially served as the headquarters of the Seagram Company, a Canadian distiller.  -wiki",
+    "image": "https://rew-online.com/wp-content/uploads/2020/09/375-Park-Avenue-Seagram-Building-scaled.jpg" 
   },
 
   {
     "title": "Woolworth Building",
     "architecturalStyle": "Neo-gothic",
     "year": 1913,
-    "about": "At 792 feet, this was the tallest building in the world from 1913 to 1930.  Built to resemble the beautiful cathedrals of Europe, it was nicknamed the Cathedral of Commerce and is one of the most ornate buildings in the city.  Currently on the National Register of Historic Places and a US National Historic Landmark.  -wiki" 
+    "about": "At 792 feet, this was the tallest building in the world from 1913 to 1930.  Built to resemble the beautiful cathedrals of Europe, it was nicknamed the Cathedral of Commerce and is one of the most ornate buildings in the city.  Currently on the National Register of Historic Places and a US National Historic Landmark.  -wiki",
+    "image": "https://www.hauteresidence.com/wp-content/uploads/2017/03/Woolworth_Building_by_themindofmadness1.jpg" 
   },
 
   {
     "title": "The Flatiron Building",
     "architecturalStyle": "Renaissance Revival",
     "year": 1902,
-    "about": "Often called on of the world's most iconic skyscrapers and a quintessential symbol of NYC.  Its unique shape resembles a cast-iron clothes iron which is where it derives its name.  One of the tallest buildings in the city upon its opening in 1902.  Currently on the National Register of Historic Places and a US National Historic Landmark.  -wiki" 
+    "about": "Often called on of the world's most iconic skyscrapers and a quintessential symbol of NYC.  Its unique shape resembles a cast-iron clothes iron which is where it derives its name.  One of the tallest buildings in the city upon its opening in 1902.  Currently on the National Register of Historic Places and a US National Historic Landmark.  -wiki",
+    "image": "https://cdn.viewing.nyc/assets/media/cc4c5b7ed02b492a0a5450b6e971c629/elements/ce8543eac290cefc29d45d059a3493f7/e46c8bd4-4eb0-4963-88f1-461e6010b9e1.jpg" 
   },
 
   {
     "title": "Chrystler Building",
     "architecturalStyle": "Art Deco",
     "year": 1930,
-    "about": "The Chrysler Building was the tallest building in the world for 11 months when it was eclipsed by the Empire State Building.  It is still the tallest brick building in the world with a steel framework.  It was ranked ninth on the list of America's Favorite Architecture by the American Institute of Architects.  Currently on the National Register of Historic Places and a US National Historic Landmark.  -wiki" 
+    "about": "The Chrysler Building was the tallest building in the world for 11 months when it was eclipsed by the Empire State Building.  It is still the tallest brick building in the world with a steel framework.  It was ranked ninth on the list of America's Favorite Architecture by the American Institute of Architects.  Currently on the National Register of Historic Places and a US National Historic Landmark.  -wiki",
+    "image": "https://media.villagepreservation.org/wp-content/uploads/2020/06/15023255/6FCCCA29-492B-4AF3-8181-483CB4F91B3B-683x1024.jpg" 
   },
 
   {
     "title": "New York Life Building",
     "architecturalStyle": "New Gothic",
     "year": 1930,
-    "about": "Headquarters for the New York Life Insurance company and occupies an entire city block.  Its roof was initially plated in gold leaf but eventually eroded and replaced by 25,000 gilded tiles.  In its prime, it was the largest external gold leaf structure in the country.  Currently on the National Register of Historic Places and a US National Historic Landmark.  -wiki" 
+    "about": "Headquarters for the New York Life Insurance company and occupies an entire city block.  Its roof was initially plated in gold leaf but eventually eroded and replaced by 25,000 gilded tiles.  In its prime, it was the largest external gold leaf structure in the country.  Currently on the National Register of Historic Places and a US National Historic Landmark.  -wiki",
+    "image": "https://i.pinimg.com/564x/bf/8b/02/bf8b026bfd52350210ec80c60adbe0c0.jpg" 
   },
 
   {
     "title": "Middle Collegiate Church",
     "architecturalStyle": "Gothic Revival",
     "year": 1891,
-    "about": "The church was built in 1891 on a site directly north of the Isaac T. Hopper House, and was designed by the architect S. B. Reed, 'thoroughly equipped' as one guide said, 'with reading-rooms, gymnasium, and all appliances for aggressive modern church work'. The stained-glass windows were of Tiffany glass. The church bell, moved to the current building in 1949, was cast in Amsterdam in 1729. It was known as New York's Liberty Bell because it was rung to celebrate the signing of the Declaration of Independence in 1776.  It also marked the inaugurations and deaths of American presidents, remembrances of the September 11th attacks, and other occasions, such as the death of King George VI in 1952.  -wiki" 
+    "about": "The church was built in 1891 on a site directly north of the Isaac T. Hopper House, and was designed by the architect S. B. Reed, 'thoroughly equipped' as one guide said, 'with reading-rooms, gymnasium, and all appliances for aggressive modern church work'. The stained-glass windows were of Tiffany glass. The church bell, moved to the current building in 1949, was cast in Amsterdam in 1729. It was known as New York's Liberty Bell because it was rung to celebrate the signing of the Declaration of Independence in 1776.  It also marked the inaugurations and deaths of American presidents, remembrances of the September 11th attacks, and other occasions, such as the death of King George VI in 1952.  -wiki",
+    "image": "https://i.pinimg.com/564x/51/2a/e7/512ae7b1bde4db3de92f33cee2eed94b.jpg" 
   },
     
   {
     "title": "1 Wall Street Court",
     "architecturalStyle": "Renaissance",
     "year": 1904,
-    "about": "The Beaver Building was constructed between 1903 and 1904 as a speculative development. The building served as the headquarters of the Munson Steamship Line from 1904 until 1921, and the company owned 1 Wall Street Court from 1919 to 1937. The building was foreclosed upon in 1937, and ownership subsequently passed to several other entities, including the Bowery Savings Bank. The New York Cocoa Exchange was another large tenant, occupying the building between 1931 and 1972. The commercial spaces on ground level, as well as the interior offices, were significantly altered from their original design, with major renovations in 1937 and the mid-1980s. 1 Wall Street Court was converted into a residential condominium building in 2006.  -wiki" 
+    "about": "The Beaver Building was constructed between 1903 and 1904 as a speculative development. The building served as the headquarters of the Munson Steamship Line from 1904 until 1921, and the company owned 1 Wall Street Court from 1919 to 1937. The building was foreclosed upon in 1937, and ownership subsequently passed to several other entities, including the Bowery Savings Bank. The New York Cocoa Exchange was another large tenant, occupying the building between 1931 and 1972. The commercial spaces on ground level, as well as the interior offices, were significantly altered from their original design, with major renovations in 1937 and the mid-1980s. 1 Wall Street Court was converted into a residential condominium building in 2006.  -wiki",
+    "image": "https://i.pinimg.com/564x/58/fd/bc/58fdbcb93d6a557e56fd699f1e70e760.jpg" 
   },
     
   {
     "title": "The New Museum",
     "architecturalStyle": "Modern architecture",
     "year": 2007,
-    "about": "The New Museum, designed by Tokyo-based architects Kazuyo Sejima and Ryue Nishizawa/SANAA, is a sevenStory, eight-level structure located at 235 Bowery between Stanton and Rivington Streets, at the origin of Prince Street in New York City. SANAA was awarded the Pritzker Architecture Prize in 2010 and was named one of The World's 50 Most Innovative Companies by Fast Company in 2016.  -New Building Museum" 
+    "about": "The New Museum, designed by Tokyo-based architects Kazuyo Sejima and Ryue Nishizawa/SANAA, is a sevenStory, eight-level structure located at 235 Bowery between Stanton and Rivington Streets, at the origin of Prince Street in New York City. SANAA was awarded the Pritzker Architecture Prize in 2010 and was named one of The World's 50 Most Innovative Companies by Fast Company in 2016.  -New Building Museum",
+    "image": "https://i.pinimg.com/564x/24/3f/8b/243f8be744b1d3850e4cc9dc59228f2c.jpg" 
   }
 ]
