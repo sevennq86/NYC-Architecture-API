@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
-import { getIconics} from '../services/iconic.js';
+import { getIconics } from '../services/iconic';
 import Iconic from '../components/Iconic.jsx';
+import { Link } from "react-router-dom";
 
 
 
@@ -18,10 +19,16 @@ export default function Iconics() {
 
   return (
     <div>
-      <h1>Iconics</h1>
+      <h1>List Of Iconic Locations</h1>
       {iconics.map((iconicData) => (
-        <Iconic key={iconicData._id} iconic={iconicData}/>
+        <div>
+        <Iconic key={iconicData._id} iconic={iconicData} />
+          
+            </div>
       ))}
+      
+     <Link to="/your-own">Your Own Iconic Location</Link>
+
     </div>
   )
 }

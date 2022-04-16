@@ -22,13 +22,16 @@ export default function IconicDetail() {
       <h5>{iconic.architecturalStyle}</h5>
       <h5>{iconic.year}</h5>
       <p>{iconic.about}</p>
+      <div className='img-container' >
+      <img className='inner-pic' src={iconic.image} />
+      </div>
       <div>
         <button>
           <Link to={`/iconics/${iconic._id}/edit`}>Edit Iconic Sites</Link>
         </button>
         <button onClick={() => {
           deleteIconic(iconic._id)
-          navigate("/iconics", { replace: true })
+          navigate("/iconic", { replace: true })
         }}>Delete Iconic Site</button>
         
       </div>

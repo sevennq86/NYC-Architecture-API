@@ -6,7 +6,7 @@ let Iconic = new Schema({
   architecturalStyle: { type: String },
   year: { type: Number },
   about: { type: String },
-
+  image: { type: String },
 });
 
 export default mongoose.model("iconic", Iconic);

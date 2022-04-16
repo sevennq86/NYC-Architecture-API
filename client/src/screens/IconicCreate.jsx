@@ -7,7 +7,7 @@ export default function IconicCreate() {
     title: "",
     architecturalStyle: "",
     year: "",
-    about: "",
+    image: "",
   })
 
   let navigate = useNavigate()
@@ -23,7 +23,7 @@ export default function IconicCreate() {
   const handleSubmit = async (event) => {
     event.preventDefault()
     await createIconic(iconic)
-    navigate("/iconics", { replace: true })
+    navigate("/iconic", { replace: true })
   }
 
   return (
@@ -51,6 +51,12 @@ export default function IconicCreate() {
         placeholder="about this iconic place"
         name="about"
         value={iconic.about}
+        onChange={handleChange}
+      />
+      <input
+        placeholder="Image link"
+        name="image"
+        value={iconic.image}
         onChange={handleChange}
       />
       <button type="submit">Submit</button>

@@ -1,1 +1,19 @@
 
+.image {
+  height: 200px;
+  width: 200px;
+}
+
+.img-container{
+  height: 80vh;
+  width: 80vw;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.inner-pic {
+  height: 500px;
+  width: 500px;
+}

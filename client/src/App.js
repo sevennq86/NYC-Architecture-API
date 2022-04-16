@@ -12,11 +12,15 @@ function App() {
       <h1>Home Page</h1>
       <Nav />
       <Routes>
-        <Route path="/iconics" element={<Iconics />} />
+        <Route path="/iconic" element={<Iconics />} />
         <Route path="/iconic/:id" element={<IconicDetail />} />
         <Route path="/your-own" element={<IconicCreate />} />
-        <Route path="/iconics/:id/edit" element={<IconicEdit/>} />
+        <Route path="/iconics/:id/edit" element={<IconicEdit />} />
+        
+
+
       </Routes>
+      
     </div>
   );
 }

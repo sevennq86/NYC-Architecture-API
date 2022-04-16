@@ -9,6 +9,7 @@ export default function IconicEdit() {
     architecturalStyle: "",
     year: "",
     about: "",
+    image: "",
   })
 
   let navigate = useNavigate()
@@ -34,7 +35,7 @@ export default function IconicEdit() {
   const handleSubmit = async (event) => {
     event.preventDefault()
     await updateIconic(id, iconic)
-    navigate("/iconics", { replace: true })
+    navigate("/iconic", { replace: true })
   }
 
   return (
