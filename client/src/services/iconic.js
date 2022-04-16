@@ -19,6 +19,15 @@ export const getIconic = async (id) => {
   }
 };
 
+export const createIconic = async (iconic) => {
+  try {
+    const response = await api.post("/iconics", iconic);
+    return response.data;
+  } catch (error) {
+    throw error;
+  }
+};
+
 export const updateIconic = async (id, iconic) => {
   try {
     const response = await api.put(`/iconics/${id}`, iconic);

@@ -8,7 +8,7 @@ export default function Nav() {
         <NavLink to="/">Home</NavLink>
         <NavLink to="/top10">Top 10</NavLink>
         <NavLink to="/iconics">Iconic</NavLink>
-        <NavLink to="/yourchoice">Your Choice</NavLink>
+        <NavLink to="/your-own">Your Own Iconic Location</NavLink>
       </div>
     </nav>
   )
