@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { getIconic } from '../services/iconic.js';
+import { deleteIconic, getIconic } from '../services/iconic.js';
 import { Link, useParams, useNavigate } from "react-router-dom";
 
 export default function IconicDetail() {
@@ -23,14 +23,14 @@ export default function IconicDetail() {
       <h5>{iconic.year}</h5>
       <p>{iconic.about}</p>
       <div>
-        {/* <button>
+        <button>
           <Link to={`/iconics/${iconic._id}/edit`}>Edit Iconic Sites</Link>
         </button>
         <button onClick={() => {
           deleteIconic(iconic._id)
           navigate("/iconics", { replace: true })
         }}>Delete Iconic Site</button>
-         */}
+        
       </div>
     
     </div>
