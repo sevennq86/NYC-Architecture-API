@@ -4,7 +4,6 @@ import { createIconic } from "../services/iconic";
 
 export default function IconicCreate() {
   const [iconic, setIconic] = useState({
-    _id: "",
     title: "",
     architecturalStyle: "",
     year: "",
@@ -29,14 +28,7 @@ export default function IconicCreate() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input
-        placeholder="id"
-        name="_id"
-        value={iconic._id}
-        onChange={handleChange}
-        required
-        autoFocus
-      />
+
       <input
         placeholder="Title"
         name="title"
