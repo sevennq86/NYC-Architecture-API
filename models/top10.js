@@ -10,7 +10,7 @@ let Top10 = new Schema({
   architect: { type: String },
   architecturalStyle: { type: String },
   rank: { type: Number },
-
+  image: { type: String },
 });
 
 export default mongoose.model("top10", Top10);
