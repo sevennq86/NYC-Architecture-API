@@ -7,7 +7,8 @@
     "floorArea": "3,501,274 sq ft",
     "architect": "David Childs",
     "architecturalStyle":  "Contemporary Modern",
-    "rank": 1
+    "rank": 1,
+    "image": "https://d3q33rbmdkxzj.cloudfront.net/1589466137456_aFz3CE.png"
   },
   
   {
@@ -18,7 +19,8 @@
     "floorArea": "1,285,308 sq ft",
     "architect": "Adrian Smith & Gordon Gill Architecture",
     "architecturalStyle":  "Modern",
-    "rank": 2
+    "rank": 2,
+    "image":"https://static.dezeen.com/uploads/2021/05/central-park-tower-new-york-tallest-building-supertall-skyscraper-photography-paul-clemence_dezeen_2364_sq-a.jpg"
   },
   
   {
@@ -29,7 +31,8 @@
     "floorArea": "303,225 sq ft",
     "architect": "Shop Architects",
     "architecturalStyle":  "Neo-classic",
-    "rank": 3
+    "rank": 3,
+    "image":"https://media.architecturaldigest.com/photos/6251ef159aeca252b100998b/master/w_1600,c_limit/1.%20Photo%20by%20David%20Sundberg.jpeg"
   },
 
   {
@@ -40,7 +43,8 @@
     "floorArea": "1,750,212 sq ft",
     "architect": "Kohn Pedersen Fox",
     "architecturalStyle":  "Futurist",
-    "rank": 4
+    "rank": 4,
+    "image":"https://www.generalinsulation.com/wp-content/uploads/2019/04/1-vanderbilt-03.jpg"
   },
   
   {
@@ -51,7 +55,8 @@
     "floorArea": "412,637 sq ft",
     "architect": "Rafael Vinoly and SLCE Architects, LLP",
     "architecturalStyle":  "Contemporary",
-    "rank": 5
+    "rank": 5,
+    "image":"https://newyorkyimby.com/wp-content/uploads/2016/11/432-Park-Avenue-Tower-Looking-South-DBOX.jpg"
   },
   
   {
@@ -62,7 +67,9 @@
     "floorArea": "2,600,000  sq ft",
     "architect": "Kohn Pedersen Fox",
     "architecturalStyle":  "Neo-futurism",
-    "rank": 6
+    "rank": 6,
+    "image":"https://www.hudsonyardsnewyork.com/sites/default/files/styles/experience_details/public/2020-08/0213_RET_RGB_HiRes.jpg?h=8a66bbe6&itok=PWb8pQ96"
+
   },
   
   {
@@ -73,7 +80,8 @@
     "floorArea": "2,248,355  sq ft",
     "architect": "Shreve, Lamb and Harmon",
     "architecturalStyle":  "Art Deco",
-    "rank": 7
+    "rank": 7,
+    "image":"https://media.timeout.com/images/101705309/1372/772/image.jpg"
   },
 
   {
@@ -84,7 +92,8 @@
     "floorArea": "2,100,000  sq ft",
     "architect": "Cookfox Adamson Associates",
     "architecturalStyle":  "Late Modern",
-    "rank": 8
+    "rank": 8,
+    "image":"http://2.bp.blogspot.com/-E0KkD4MnaFQ/UAVGuHnWP1I/AAAAAAAARD0/eIjw7DKlPzA/s1600/DSC_0491.jpg"
   },
 
   {
@@ -95,7 +104,8 @@
     "floorArea": "2,000,000  sq ft",
     "architect": "Rogers Stirk Harbour + Partners",
     "architecturalStyle":  "Modern",
-    "rank": 9
+    "rank": 9,
+    "image":"https://media.architecturaldigest.com/photos/5b1e79c3c5217b301125c94a/master/w_1600,c_limit/3%20WTC_exterior%202.jpg"
   },
 
   {
@@ -106,6 +116,7 @@
     "floorArea": "555,734  sq ft",
     "architect": "Shop Architects",
     "architecturalStyle":  "New Art Deco",
-    "rank": 10
+    "rank": 10,
+    "image":"https://d2kcmk0r62r1qk.cloudfront.net/imageSponsors/xlarge/2021_10_29_10_28_05_screen_shot_2021-10-29_at_10.26.39_am.png"
   }
 ]

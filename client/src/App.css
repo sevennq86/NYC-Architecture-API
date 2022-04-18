@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   width: 100vw;
 
 }
@@ -17,13 +17,23 @@
   height: 200px;
   width: 200px;
 }
+/* .iconic-component{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+} */
+.iconic-component-title {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1.2rem;
+}
 
 .iconics-container{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   text-decoration: none;
   
 }
@@ -43,7 +53,7 @@
   display:flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 
