@@ -27,6 +27,7 @@ export default function IconicCreate() {
   }
 
   return (
+    <div className="create-form">
     <form onSubmit={handleSubmit}>
 
       <input
@@ -60,6 +61,7 @@ export default function IconicCreate() {
         onChange={handleChange}
       />
       <button type="submit">Submit</button>
-    </form>
+      </form>
+      </div>
   )
 }
