@@ -9,7 +9,7 @@ import { useState, useEffect } from "react";
 import Top10 from "./screens/Top10";
 import Top10Detail from "./screens/Top10Detail";
 import HomeScreen from "./screens/Home";
-import { useState, useEffect } from "react";
+
 
 function App() {
   const [header, setHeader] = useState("Nyc Arc")
