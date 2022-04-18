@@ -8,6 +8,7 @@ import { Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Top10 from "./screens/Top10";
 import Top10Detail from "./screens/Top10Detail";
+import HomeScreen from "./screens/Home";
 
 function App() {
   const [header, setHeader] = useState("Nyc Arc")
@@ -25,9 +26,7 @@ function App() {
         <Route path="/iconics/:id/edit" element={<IconicEdit />} />
         <Route path="/top10" element={<Top10 />} />
         <Route path="/top10/:id" element={<Top10Detail />} />
-        
-
-
+        <Route path="/home" element={<HomeScreen />} />
       </Routes>
       
     </div>
