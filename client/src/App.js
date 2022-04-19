@@ -35,7 +35,7 @@ function App() {
     setSignedIn(true);
     setUserName(name);
     //use this for deployed database
-    // .post("https://rock-climbing-api.herokuapp.com/api/signup"
+    // .post("https://architecture-api-group7.herokuapp.com/api/signup"
     axios
       .post("http://localhost:3000/api/signup", {
         name: name,
