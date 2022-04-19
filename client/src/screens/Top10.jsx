@@ -25,6 +25,8 @@ export default function Top10s() {
         </div>
       ))}
 
+      {/* <Link to="/your-own">Your Own Iconic Location</Link> */}
+
     </div>
   );
 }
