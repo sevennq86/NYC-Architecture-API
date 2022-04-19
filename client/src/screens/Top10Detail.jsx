@@ -25,9 +25,9 @@ export default function Top10Detail() {
       <h5>{top10.height}</h5>
       <h5>{top10.floorArea}</h5>
       <h5>{top10.architect}</h5>
-      {/* <div className='img-container' >
+      <div className='img-container' >
       <img className='inner-pic' src={top10.image} />
-      </div> */}
+      </div>
     
     </div>
   )

@@ -4,8 +4,8 @@ import { NavLink } from 'react-router-dom';
 export default function Nav() {
   return (
     <nav>
-      <div>
-        <NavLink to="/">Home</NavLink>
+      <div className='nav'>
+        <NavLink to="/home">Home</NavLink>
         <NavLink to="/top10">Top 10</NavLink>
         <NavLink to="/iconic">Iconic</NavLink>
         

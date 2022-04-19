@@ -4,11 +4,12 @@ export default function Iconic({iconic}) {
 
   return (
     <div>
-      <Link to={`/iconic/${iconic._id}`}>
-        <p>{iconic.title}</p>
+      <div className='iconic-component'>
+       <Link to={`/iconic/${iconic._id}`}>
+       <button className='iconic-component-title'> {iconic.title}</button> 
         <img className='image' src={iconic.image}/>
-      </Link>
-      
+        </Link>
+      </div>
     </div>
   )
 }
