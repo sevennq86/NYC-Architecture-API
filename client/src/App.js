@@ -36,8 +36,11 @@ function App() {
     setUserName(name);
     //use this for deployed database
     // .post("https://architecture-api-group7.herokuapp.com/signup"
+//local development
+    // .post("http://localhost:3000/signup"
     axios
-      .post("http://localhost:3000/signup", {
+      // .post("http://localhost:3000/signup", {
+        .post("https://architecture-api-group7.herokuapp.com/signup", {
         name: name,
         email: email,
         password: password,
@@ -64,7 +67,8 @@ function App() {
     //use this for deployed database
     // .post("https://architecture-api-group7.herokuapp.com/login"
     axios
-      .post("http://localhost:3000/login", {
+      // .post("http://localhost:3000/login"
+      .post("https://architecture-api-group7.herokuapp.com/login", {
         email: email,
         password: password,
       })
