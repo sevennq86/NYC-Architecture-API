@@ -14,7 +14,7 @@ import axios from "axios";
 import SignUp from "./components/SignUp";
 import SignIn from "./components/SignIn";
 import SignOut from "./components/SignOut";
-
+import User from "./screens/User";
 
 function App() {
   const [header, setHeader] = useState("Nyc Arc");
@@ -35,9 +35,9 @@ function App() {
     setSignedIn(true);
     setUserName(name);
     //use this for deployed database
-    // .post("https://architecture-api-group7.herokuapp.com/api/signup"
+    // .post("https://https://architecture-api-group7.com/signup"
     axios
-      .post("http://localhost:3000/api/signup", {
+      .post("http://localhost:3000/signup", {
         name: name,
         email: email,
         password: password,
@@ -64,7 +64,7 @@ function App() {
     //use this for deployed database
     // .post("https://architecture-api-group7.herokuapp.com/login"
     axios
-      .post("http://localhost:3000/api/login", {
+      .post("http://localhost:3000/login", {
         email: email,
         password: password,
       })
@@ -72,29 +72,41 @@ function App() {
         localStorage.token = res.data.token;
         const test = jwt_decode(res.data.token);
         setUserName(test.name);
+        alert(`${test.name} you signed in`)
       })
       .catch((err) => {
         console.log(err);
-      });
+        alert("WRONG PASS")
+      })
+      
   };
-
-
 
   return (
     <div className="App">
       <h1 className="main-header">{header}</h1>
       <Nav />
       <Routes>
-        
-        <Route path="/iconic" element={<Iconics setHeader={setHeader}/> }  />
+        <Route path="/iconic" element={<Iconics setHeader={setHeader} />} />
         <Route path="/iconic/:id" element={<IconicDetail />} />
         <Route path="/your-own" element={<IconicCreate />} />
         <Route path="/iconics/:id/edit" element={<IconicEdit />} />
-        <Route path="/top10" element={<Top10 />} />
+        <Route path="/top10" element={<Top10 setHeader={setHeader} />} />
         <Route path="/top10/:id" element={<Top10Detail />} />
-        <Route path="/home" element={<HomeScreen />} />
+        <Route path="/home" element={<HomeScreen setHeader={setHeader} />} />
+        <Route
+          path="/users"
+          element={
+            <User
+              handleNameChange={handleNameChange}
+              handleEmailChange={handleEmailChange}
+              handlePasswordChange={handlePasswordChange}
+              handleSignUp={handleSignUp}
+              handleLogIn={handleLogIn}
+              setSignedIn={setSignedIn}
+            />
+          }
+        />
 
-        {/* Beginning of Authentication */}
         <Route
           path="/signUp"
           element={
@@ -121,7 +133,6 @@ function App() {
           element={<SignOut setSignedIn={setSignedIn} />}
         />
       </Routes>
-      
     </div>
   );
 }
