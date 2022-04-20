@@ -21,7 +21,7 @@ export default function SignUp({handleNameChange, handleEmailChange, handlePassw
           <input type='password' name="email" onChange={handlePasswordChange}/>
         </div>
         <div>
-          <input type='submit' value="Submit" onClick={handleSignUp}/>
+          <button className='submit-btn' type='submit' value="Submit" onClick={handleSignUp}>Submit</button>
         </div>
       </form>
     </div>

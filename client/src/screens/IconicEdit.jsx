@@ -39,6 +39,7 @@ export default function IconicEdit() {
   }
 
   return (
+    <div className='edit-form'>
     <form onSubmit={handleSubmit}>
      
       <input
@@ -65,7 +66,8 @@ export default function IconicEdit() {
         value={iconic.about}
         onChange={handleChange}
       />
-      <button type="submit">Submit</button>
-    </form>
+      <button className='iconic-delete-btn' type="submit">Submit</button>
+      </form>
+      </div>
   )
 }

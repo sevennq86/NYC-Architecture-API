@@ -13,7 +13,7 @@ export default function SignIn({ handleEmailChange, handlePasswordChange, handle
           <input type='password' name="email" onChange={handlePasswordChange}/>
         </div>
         <div>
-          <input type='submit' value="Submit" onClick={handleLogIn}/>
+          <button className="sign-in-btn" type='submit' value="Submit" onClick={handleLogIn}>Sign In</button>
         </div>
       </form>
     </div>
