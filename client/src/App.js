@@ -35,9 +35,9 @@ function App() {
     setSignedIn(true);
     setUserName(name);
     //use this for deployed database
-    // .post("https://architecture-api-group7.herokuapp.com/api/signup"
+    // .post("https://architecture-api-group7.herokuapp.com/signup"
     axios
-      .post("http://localhost:3000/api/signup", {
+      .post("http://localhost:3000/signup", {
         name: name,
         email: email,
         password: password,
@@ -64,7 +64,7 @@ function App() {
     //use this for deployed database
     // .post("https://architecture-api-group7.herokuapp.com/login"
     axios
-      .post("http://localhost:3000/api/login", {
+      .post("http://localhost:3000/login", {
         email: email,
         password: password,
       })
