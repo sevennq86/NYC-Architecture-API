@@ -28,7 +28,7 @@ export default function IconicDetail() {
           <button className="iconicDeatail-edit-btn">
             <Link to={`/iconics/${iconic._id}/edit`}>Edit Iconic Sites</Link>
           </button>
-
+            
           <button className="iconicDetail-delete-btn" 
             onClick={() => {
               deleteIconic(iconic._id);

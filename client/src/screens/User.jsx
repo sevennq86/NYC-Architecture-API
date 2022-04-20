@@ -14,21 +14,35 @@ export default function Users({
 }) {
   return (
     <div>
+
+      <div className="user-screen-container">
+      <div className="user-screen-signin">
       <SignIn
         handleNameChange={handleNameChange}
         handleEmailChange={handleEmailChange}
         handlePasswordChange={handlePasswordChange}
         handleLogIn={handleLogIn} 
-      />
-      <SignOut
-       setSignedIn={setSignedIn}
-      />
+        />
+      </div>
+      
+        
+       
+      <div className="user-screen-signup">
       <SignUp
        handleNameChange={handleNameChange}
        handleEmailChange={handleEmailChange}
        handlePasswordChange={handlePasswordChange}
        handleSignUp={handleSignUp}
-      />
+        />
+        </div>
+
+        <div className="user-screen-signout">
+      <SignOut
+       setSignedIn={setSignedIn}
+        />
+          </div>
+          
+      </div>
     </div>
   );
 }

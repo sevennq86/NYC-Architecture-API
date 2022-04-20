@@ -4,11 +4,17 @@ a{
 }
 .nav {
   display: flex;
+  height: 4rem;
+  width: 100%;
   justify-content: space-around;
   text-align: center;
   font-family: 'Exo 2', sans-serif; 
   font-size: 2rem;
   font-weight: bold;
+  border: 2px solid grey;
+  padding-top: 1rem;
+  margin-bottom: 3rem;
+  
 }
 .iconics-screen{
   display: grid;
@@ -68,6 +74,8 @@ a{
   padding-left: 2rem;
   border: 2px solid grey;
   border-radius: 1rem;
+  margin-right: 2rem;
+  margin-left:2rem;
 }
 .top10Detail-screen-body{
   grid-area: b;
@@ -79,6 +87,7 @@ a{
   padding-left: 2rem;
   border: 2px solid grey;
   border-radius: 1rem;
+ 
 }
 
 .iconicDetail-screen-img-container{
@@ -128,19 +137,215 @@ a{
 .iconic-component-title{
   text-align: center;
 }
+.iconic-screen-yourown{
+  font-family: 'Exo 2', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
 .home-component-title{
   font-family: 'Exo 2', sans-serif;
   text-align: center;
 }
+.home-body-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .home-component-body{
   font-family: 'Exo 2', sans-serif;
-  z-index: 1;
-  overflow-y: scroll;
+  width: 80%;
+  font-size: 1.2rem; 
 }
 .home-component-image{
+  padding-top: 2rem;
   z-index: -1;
   height:100%;
   width:100%;
-  overflow-y: scroll;
-  
+
+}
+.main-header{
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 2.5rem;
+}
+.user-screen-container{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+
+  "a b"
+  "a c"
+}
+.user-screen-signup{
+  grid-area: a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:500px;
+  width:500px;
+  margin-right: 2rem;
+  margin-left: 5rem;
+  border: 2px solid grey;
+  border-radius: 2rem;
+}
+.user-screen-signin{
+  height:100%;
+  grid-area: b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.user-screen-signout{
+  grid-area: c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.iconicDeatail-edit-btn{
+  margin-right: 1rem;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Exo', sans-serif;
+  font-size: 1rem;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: .8rem;
+  width: 10rem;
+  border: 1px solid white;
+  font-family: 'Exo 2', sans-serif;
+  border-radius: 8px;
+}
+.iconicDetail-delete-btn{
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Exo', sans-serif;
+  font-size: 1rem;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: .8rem;
+  width: 10rem;
+  border: 1px solid white;
+  font-family: 'Exo 2', sans-serif;
+  border-radius: 8px;
+}
+.yourown-button-holder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+.iconic-screen-yourown{
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Exo', sans-serif;
+  font-size: 1.4rem;
+  margin-top: 20px;
+  padding: .8rem;
+  width: 20rem;
+  border: 1px solid white;
+  font-family: 'Exo 2', sans-serif;
+  border-radius: 8px;
+}
+.iconic-create-btn{
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Exo', sans-serif;
+  font-size: 1rem;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: .8rem;
+  border: 1px solid white;
+  font-family: 'Exo 2', sans-serif;
+  border-radius: 8px;
+}
+input, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.create-form{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.edit-form{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.iconic-delete-btn{
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Exo', sans-serif;
+  font-size: 1rem;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: .8rem;
+  border: 1px solid white;
+  font-family: 'Exo 2', sans-serif;
+  border-radius: 8px;
+}
+.submit-btn{
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Exo', sans-serif;
+  font-size: 1rem;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: .8rem;
+  width: 100%;
+  border: 1px solid white;
+  font-family: 'Exo 2', sans-serif;
+  border-radius: 8px;
+}
+
+.sign-in-btn{
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Exo', sans-serif;
+  font-size: 1rem;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: .8rem;
+  width: 100%;
+  border: 1px solid white;
+  font-family: 'Exo 2', sans-serif;
+  border-radius: 8px;
+}
+
+.log-off{
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Exo', sans-serif;
+  font-size: 1rem;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: .8rem;
+  width: 100%;
+  border: 1px solid white;
+  font-family: 'Exo 2', sans-serif;
+  border-radius: 8px;
 }
