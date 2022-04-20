@@ -5,15 +5,18 @@ import express from "express";
 import cors from "cors";
 import logger from "morgan";
 import chalk from "chalk";
+import passportInt from "./config/passport.js";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+const passport = passportInt();
 
 app.use(express.json());
 app.use(cors());
 app.use(logger("dev"));
 
 app.use("/", routes);
+app.use(passport.initialize());
 
 db.on("connected", () => {
   console.clear();
