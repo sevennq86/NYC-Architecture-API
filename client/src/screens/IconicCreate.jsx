@@ -59,8 +59,9 @@ export default function IconicCreate() {
         name="image"
         value={iconic.image}
         onChange={handleChange}
-      />
-      <button type="submit">Submit</button>
+        />
+     
+      <button className="iconic-create-btn" type="submit">Submit</button>
       </form>
       </div>
   )

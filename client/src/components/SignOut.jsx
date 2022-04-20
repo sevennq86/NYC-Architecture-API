@@ -14,7 +14,7 @@ export default function SignOut({setSignedIn}) {
         <h1>Log Out</h1>
 
         <form>
-          <input value='Log Out' type='submit' onClick={handleLogOut} />
+          <button className='log-off' value='Log-Out' type='submit' onClick={handleLogOut}>Log Out</button> 
         </form>
       </div>
     </div>
