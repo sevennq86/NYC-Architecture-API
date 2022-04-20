@@ -17,16 +17,17 @@ export default function Top10Detail() {
   }, [id])
 
   return (
-    <div>
-      
-      <h2>{top10.name}</h2>
-      <h5>{top10.constructionStarted}</h5>
-      <h5>{top10.topFloor}</h5>
-      <h5>{top10.height}</h5>
-      <h5>{top10.floorArea}</h5>
-      <h5>{top10.architect}</h5>
-      <div className='img-container' >
-      <img className='inner-pic' src={top10.image} />
+    <div className="top10Detail-screen-container">
+      <h2 className='top10Detail-screen-title'>{top10.name}</h2>
+      <div className='top10Detail-screen-body'>
+      <h5>Opened: {top10.opened}</h5>
+      <h5>Top Floor:{top10.topFloor}</h5>
+      <h5>Height: {top10.height}</h5>
+      <h5>Floor Area:{top10.floorArea}</h5>
+        <h5>Architect: {top10.architect}</h5>
+        </div>
+      <div className='top10Detail-screen-container-img' >
+      <img className='top10Detail-screen-image' src={top10.image} />
       </div>
     
     </div>

@@ -17,12 +17,11 @@ export default function Iconics({ setHeader }) {
 
   return (
     <div>
-      <div className="iconics-container">
-        <Link to="/your-own">Your Own Iconic Location</Link>
-
+      <h3><Link to="/your-own">Your Own Iconic Location</Link></h3> 
+      <div className="iconics-screen">
         {iconics.map((iconicData) => (
           <div>
-            <div className="main-container">
+            <div className="each-iconic-div">
               <Iconic key={iconicData._id} iconic={iconicData} />
             </div>
           </div>

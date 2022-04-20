@@ -6,8 +6,8 @@ export default function Iconic({iconic}) {
     <div>
       <div className='iconic-component'>
        <Link to={`/iconic/${iconic._id}`}>
-       <button className='iconic-component-title'> {iconic.title}</button> 
-        <img className='image' src={iconic.image}/>
+        <p className='iconic-component-title'>{iconic.title}</p>
+        <img className='iconic-component-image' src={iconic.image}/>
         </Link>
       </div>
     </div>

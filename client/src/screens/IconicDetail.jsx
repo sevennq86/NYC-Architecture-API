@@ -17,28 +17,32 @@ export default function IconicDetail() {
   }, [id]);
 
   return (
-    <div className="iconic-detail-container">
-      <div className="img-container">
-          <img className="inner-pic" src={iconic.image} />
-        </div>
-      <div className="iconic-inner">
-        <h2>{iconic.title}</h2>
-        <h5>{iconic.architecturalStyle}</h5>
-        <h5>{iconic.year}</h5>
-        <p>{iconic.about}</p>
-        <div className="edit-delete-btn">
-          <button>
+    <div>
+      <div className="iconicDetail-screen-container">
+        <h2 className="iconicDetail-screen-title">{iconic.title}</h2>
+        <div className="iconicDetail-screen-body">
+        <h5>Architectural Style: {iconic.architecturalStyle}</h5>
+        <h5>Year: {iconic.year}</h5>
+          <p><b>About:</b> {iconic.about}</p>
+          <div className="iconicDetail-screen-edit-delete-btns">
+          <button className="iconicDeatail-edit-btn">
             <Link to={`/iconics/${iconic._id}/edit`}>Edit Iconic Sites</Link>
           </button>
-          <button
+
+          <button className="iconicDetail-delete-btn" 
             onClick={() => {
               deleteIconic(iconic._id);
               navigate("/iconic", { replace: true });
             }}
-          >
+           >
             Delete Iconic Site
           </button>
         </div>
+        </div>
+        <div className="iconicDetail-screen-img-container">
+          <img className="iconicDetail-screen-img" src={iconic.image} />
+        </div>
+        
       </div>
     </div>
   );
