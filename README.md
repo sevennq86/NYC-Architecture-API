@@ -75,3 +75,5 @@ The website to introduce the architecture and skyscraper of New York City!
 14. Authentication setup finished, after several trials, the website become fully functional.
 
 15. Styling using CSS.
+
+
