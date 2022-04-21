@@ -3,9 +3,8 @@ import { getIconics } from "../services/iconic";
 import Iconic from "../components/Iconic.jsx";
 import { Link } from "react-router-dom";
 
-export default function Iconics({ setHeader }) {
+export default function Iconics({ setHeader, toggle }) {
   const [iconics, setIconics] = useState([]);
-
   useEffect(() => {
     const fetchIconics = async () => {
       const allIconics = await getIconics();
@@ -13,7 +12,7 @@ export default function Iconics({ setHeader }) {
     };
     setHeader("List Of Iconic Locations");
     fetchIconics();
-  }, []);
+  }, [toggle]);
 
   return (
     <div>

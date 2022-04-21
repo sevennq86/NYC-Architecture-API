@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { deleteIconic, getIconic } from "../services/iconic.js";
 import { Link, useParams, useNavigate } from "react-router-dom";
 
-export default function IconicDetail() {
+export default function IconicDetail({setToggle, toggle}) {
   const [iconic, setIconic] = useState({});
   let { id } = useParams();
   let navigate = useNavigate();
@@ -32,6 +32,7 @@ export default function IconicDetail() {
           <button className="iconicDetail-delete-btn" 
             onClick={() => {
               deleteIconic(iconic._id);
+              setToggle(!toggle);
               navigate("/iconic", { replace: true });
             }}
            >

@@ -1,7 +1,5 @@
 import api from "./apiConfig";
-import { useNavigate } from "react-router-dom";
 
-const navigate = useNavigate()
 
 export const getIconics = async () => {
   try {
@@ -43,7 +41,6 @@ export const updateIconic = async (id, iconic) => {
 export const deleteIconic = async (id) => {
   try {
     const response = await api.delete(`/iconic/${id}`);
-    navigate("/iconic");
     return response.data;
   } catch (error) {
     throw error;

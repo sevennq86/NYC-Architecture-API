@@ -23,7 +23,7 @@ function App() {
   const [password, setPassword] = useState("");
   const [signedIn, setSignedIn] = useState(false);
   const [userName, setUserName] = useState("");
-
+  const [toggle, setToggle] = useState(true);
   const [name, setName] = useState("");
 
   const handleNameChange = (e) => {
@@ -90,8 +90,8 @@ function App() {
       <h1 className="main-header">{header}</h1>
       <Nav />
       <Routes>
-        <Route path="/iconic" element={<Iconics setHeader={setHeader} />} />
-        <Route path="/iconic/:id" element={<IconicDetail />} />
+        <Route path="/iconic" element={<Iconics setHeader={setHeader} toggle={toggle} />} />
+        <Route path="/iconic/:id" element={<IconicDetail toggle={toggle} setToggle={setToggle} />} />
         <Route path="/your-own" element={<IconicCreate />} />
         <Route path="/iconics/:id/edit" element={<IconicEdit />} />
         <Route path="/top10" element={<Top10 setHeader={setHeader} />} />
