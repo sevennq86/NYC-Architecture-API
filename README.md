@@ -3,6 +3,9 @@
 ## About
 
 The website to introduce the architecture and skyscraper of New York City!
+
+This was a joint effort by Iffat Hossain, Leon Tzu Chan and Brandon Neves.
+
 <img width="2588" alt="Screen Shot 2022-04-25 at 9 55 52 PM" src="https://user-images.githubusercontent.com/97617469/165204725-ba6bdc87-0574-4af0-bfdd-fd7e820714f1.png">
 
 ## Models
