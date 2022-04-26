@@ -3,6 +3,7 @@
 ## About
 
 The website to introduce the architecture and skyscraper of New York City!
+<img width="2588" alt="Screen Shot 2022-04-25 at 9 55 52 PM" src="https://user-images.githubusercontent.com/97617469/165204725-ba6bdc87-0574-4af0-bfdd-fd7e820714f1.png">
 
 ## Models
 
@@ -46,6 +47,7 @@ The website to introduce the architecture and skyscraper of New York City!
 
 # Processes
 
+
 1. We were planning to do tall and iconic architecture in NYC for this project.
 
 2. We use the git group lab to create our branch.
@@ -75,5 +77,18 @@ The website to introduce the architecture and skyscraper of New York City!
 14. Authentication setup finished, after several trials, the website become fully functional.
 
 15. Styling using CSS.
+
+# Api Endpoints
+
+## Iconic Model
+* get - /iconic - get all iconic buildings
+* get - /iconic/:id - get a single building by id
+* post - /iconic - create a new building
+* put - /iconic/:id - update a building
+* delete - /iconic/:id - delete a building
+
+## Top 10 Model
+* get - /top10 - get all iconic buildings
+* get - /top10/:id - get a single building by id
 
 
